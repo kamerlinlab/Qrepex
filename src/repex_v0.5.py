@@ -81,7 +81,7 @@ def run_Q(num):
             else:
                 process = "".join(['mpirun --np ',str(int(numProc/numSockets)),
                                   ' Qdyn6p ',inFile,str(i),'.inp > ',inFile,
-                                  str(1),'.log']) 
+                                  str(i),'.log']) 
                 os.system(process)
                 num_sockets = 1
 
