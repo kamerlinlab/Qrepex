@@ -124,15 +124,16 @@ def rename_en(i, num):
 
 
 # Combine en files for analysis     
-def combine_en(i, num):
-    filename = "".join([inFile,str(i),'.en']) 
-    filename2 = "".join([inFile,str(i),'_',str(num),'.en'])
-    process = "".join(['dd bs=120 skip=1 if=',filename2,' of=trimmed.dump'])
-    os.system(process)
-    process = "".join(['cp ',filename,' en.temp'])
-    os.system(process)
-    process = "".join(['cat en.temp trimmed.dump > ',filename])
-    os.system(process)
+# NOT USED: it is better to analyse the individual .en files
+#def combine_en(i, num):
+#    filename = "".join([inFile,str(i),'.en']) 
+#    filename2 = "".join([inFile,str(i),'_',str(num),'.en'])
+#    process = "".join(['dd bs=120 skip=1 if=',filename2,' of=trimmed.dump'])
+#    os.system(process)
+#    process = "".join(['cp ',filename,' en.temp'])
+#    os.system(process)
+#    process = "".join(['cat en.temp trimmed.dump > ',filename])
+#    os.system(process)
 
 
 # Main function
