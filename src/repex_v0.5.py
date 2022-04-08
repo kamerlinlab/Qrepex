@@ -173,9 +173,9 @@ def main():
         num += 1
 
     # Combine .en files for analysis
-    for i in range(0,numFiles):
-        for num in range(1,numRuns):
-            combine_en(i, num)
+    #for i in range(0,numFiles):
+    #    for num in range(1,numRuns):
+    #        combine_en(i, num)
 
 
 if __name__ == "__main__":
