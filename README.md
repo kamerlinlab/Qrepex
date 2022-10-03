@@ -52,7 +52,7 @@ Q-RepEx. It can be activated by issuing:
 
         python repex v0.3.py help
 
-## How to Cite this Work
+# How to Cite this Work
 The development of Q-RepEx is mainly funded by academic research grants. To help 
 us fund development, we humbly ask that you cite the Q-RepEx paper:
 
