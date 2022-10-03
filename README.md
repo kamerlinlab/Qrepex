@@ -2,7 +2,7 @@ Qrepex 1.0
 ===========
 
 
-#### Description
+# Description
 Q-RepEx is an open source tool designed to perform replica exchange
 simulations with Q6. The idea is adapted from "H. Liu, A. Warshel, The catalytic effect of dihydrofolate reductase
 and its mutants is determined by reorganization energies, Biochemistry
@@ -11,7 +11,7 @@ statistics by increased sampling. The python script, Q-RepEx, main functionality
 FEP/US simulations.
 
 
-## System Requirements
+# System Requirements
  - Python 
  - git (optional)
  
@@ -19,7 +19,7 @@ FEP/US simulations.
 
 # Installation
 
-### External Executables:
+## External Executables:
 
 Qrepex is relying on [**Q6**](https://doi.org/10.1016/j.softx.2017.12.001) which is free and opensource software licensed under the GPL v2.
 
@@ -27,7 +27,7 @@ Qrepex is relying on [**Q6**](https://doi.org/10.1016/j.softx.2017.12.001) which
 
   Download and compile Q. Optionally install to $PATH.
   
-### Download and Install Q-Repex:
+## Download and Install Q-Repex:
 We recommend using git to download Q-Repex, so that future releases of Q-Repex are easily accessible.
 
 Here the suggested steps:
